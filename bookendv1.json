@@ -1,0 +1,59 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "More to read"
+    },
+    {
+      "type": "landscape",
+      "title": "Kids & Meditation",
+      "url": "https://www.youtube.com/watch?time_continue=4&v=LpU942GrNX0",
+      "image": "bookend_KidsMeditation.jpg"
+	"category": "Video"
+    },
+    {
+      "type": "landscape",
+      "title": "Mindfulness & meditation games & activities",
+      "url": "http://www.buddhismforkids.net/activities.html",
+      "image": "assets/bookend_jenga.jpg",
+      "category": "Games & activities"
+    },
+    {
+      "type": "landscape",
+      "title": "Learn about meditation",
+      "url": "http://www.buddhismforkids.net/meditation.html",
+      "image": "assets/bookend_zen.jpg",
+      "category": "Website"
+    },
+    {
+      "type": "landscape",
+      "title": "Meditation Handbook",
+      "url": "http://www.buddhismforkids.net/meditationhandbook.html",
+      "image": "bookend_meditationhandbook.png"
+	"category": "booklet"
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Learn more",
+          "url": "http://www.buddhismforkids.net"
+        }
+      ]
+    }
+{
+  "type": "textbox",
+  "text": [
+    "Created by BuddhismforKids.net",
+    "An affliate of Dharma Realm Buddhist Association",
+    "From the City of Ten Thousand Buddhas in Ukiah, CA.",
+    "Created in September 2018"
+  ]
+}
+  ]
+}
