@@ -3,12 +3,12 @@
   <head>
     <script async custom-element="amp-story"
         src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+        <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
     <meta charset="utf-8">
     <title>3 Benefits of Mindfulness Practice for Kids</title>
     <link rel="canonical" href="index.html">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 12s steps(1,end) 2s 1 normal both;-moz-animation:-amp-start 12s steps(1,end) 2s 1 normal both;-ms-animation:-amp-start 12s steps(1,end) 2s 1 normal both;animation:-amp-start 12s steps(1,end) 2s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>    <script async src="https://cdn.ampproject.org/v0.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">    
 	<style amp-custom>
       amp-story {
@@ -22,6 +22,14 @@
         font-weight: bold;
         font-size: 2.875em;
         font-weight: normal;
+        line-height: 1.174;
+        text-align: center
+      }
+      h2 {
+        font-weight: bold;
+        font-size: 2.875em;
+        font-weight: normal;
+        font-color: #000
         line-height: 1.174;
         text-align: center
       }
@@ -54,6 +62,13 @@
         text-align: center;
         background-color: #f1a611;
         line-height: 2em;
+        padding: 10px;
+      }
+      .special-text {
+        text-align: center;
+        background-color: #f1a611;
+        line-height: 1.5em;
+        padding: 10px;
       }
     </style>
   </head>
@@ -74,7 +89,7 @@
 			<amp-story-grid-layer template="vertical">
 			  <h1 animate-in="fly-in-left" animate-in-delay="1s">3 Benefits of Mindfulness Practice for Kids</h1>
 			  <p animate-in="fly-in-bottom" animate-in-delay="1.5s">By BuddhismforKids.net</p>
-			  <p animate-in="twirl-in" animate-in-delay="2s"><amp-img src="assets/logo-white.png" width="64" height="48" align="middle"></p>
+			  <p animate-in="twirl-in" animate-in-delay="2s"><amp-img src="assets/logo-white.png" width="64" height="48"></p>
 			</amp-story-grid-layer>
 	    </amp-story-page>
 	    
@@ -111,7 +126,7 @@
       
       <amp-story-page id="page3" auto-advance-after="5.5s">
 	    <amp-story-grid-layer template="fill">
-          <amp-img src="assets/happy_kids1.jpg"
+          <amp-img src="assets/happy_kids.jpg"
               width="720" height="1280"
               layout="responsive">
           </amp-img>
@@ -122,7 +137,7 @@
 			</amp-story-grid-layer>
 				
 		<amp-story-grid-layer template="vertical" class="bottom">
-            <p animate-in="drop" animate-in-delay="1s">Studies have shown mindfulness practice helps reduce anxiety, depression and fatigue in kids.</p>
+            <p class="special-text" animate-in="fly-in-bottom" animate-in-delay="1s" style="color:white;font-weight:bold">Studies have shown mindfulness practice helps reduce anxiety, depression and fatigue in kids.</p>
 			</amp-story-grid-layer>
       </amp-story-page>
       
@@ -132,7 +147,7 @@
                 width="720" height="1280"
                 poster="assets/beach.jpg"
                 layout="responsive">
-              <source src="assets/sea.mp4" type="video/mp4">
+              <source src="//unsurpassedpath.life/mindfulness/assets/Sea.mp4" type="video/mp4">
           </amp-video>
    		</amp-story-grid-layer>
 		
@@ -144,7 +159,7 @@
       
       <amp-story-page id="page5" auto-advance-after="5s">
       <amp-story-grid-layer template="fill">
-	    <amp-img poster="assets/beach.jpg" width="720" height="1280"
+	    <amp-img src="assets/beach.jpg" width="720" height="1280"
                 layout="responsive">
    		</amp-story-grid-layer>
         <amp-story-grid-layer template="vertical" class="noedge">
@@ -179,7 +194,6 @@
         <amp-story-grid-layer template="vertical" class="center-text">
           <p class="banner-text" animate-in="fly-in-top" animate-in-delay="2.3s">Mindfulness is great for kids!</p>
         </amp-story-grid-layer>
-        <amp-story-bookend src="bookendv1.json" layout="nodisplay"></amp-story-bookend>
 	  </amp-story>
   </body>
 </html>
