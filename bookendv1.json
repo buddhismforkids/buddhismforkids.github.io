@@ -13,7 +13,7 @@
 			"type": "landscape",
 			"title": "Kids & Meditation",
 			"url": "https://www.youtube.com/watch?time_continue=4&v=LpU942GrNX0",
-			"image": "bookend_KidsMeditation.jpg",
+			"image": "assets/bookend_KidsMeditation.jpg",
 			"category": "Video"
 		},
 		{
@@ -34,7 +34,7 @@
 			"type": "landscape",
 			"title": "Meditation Handbook",
 			"url": "http://www.buddhismforkids.net/meditationhandbook.html",
-			"image": "bookend_meditationhandbook.png",
+			"image": "assets/bookend_meditationhandbook.png",
 			"category": "booklet"
 		},
 		{
