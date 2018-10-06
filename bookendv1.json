@@ -42,17 +42,7 @@
 			"links": [{
 					"text": "Learn more",
 					"url": "http://www.buddhismforkids.net"
-				},
-				{
-					"type": "textbox",
-					"text": [
-						"Created by BuddhismforKids.net",
-						"An affliate of Dharma Realm Buddhist Association",
-						"From the City of Ten Thousand Buddhas in Ukiah, CA.",
-						"Created in September 2018"
-					]
-				}
-			]
+				}]
 		}
 	]
 }
